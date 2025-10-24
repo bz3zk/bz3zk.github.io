@@ -1,0 +1,63 @@
+title: David Correa (bz3zk)
+email: mailme@bz3zk.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Writings from the void.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: bz3zk
+
+# Build settings
+theme: jekyll-bear-theme
+plugins:
+  # - jekyll-feed
+  - jekyll-redirect-from
+
+markdown: kramdown
+
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+# sass:
+#   sass_dir: css
+#   style:    compressed
+
+# collections:
+#   my_tags:
+#     output: true
+#     permalink: /tagged/:slug/
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: my_tags
+#     values:
+#       layout: tagged
+
+# baseurl: ""
+permalink: /:slug
+timezone: America/Chicago
+future: false
+
+exclude:
+- README.md
+
+exclude: [vendor]
+
+Home: /
+Blog: /blog
+About: /about
+
+# Add general links to site pages here
+links:
+  # Resume: /assets/resume.pdf
+  
+
+# Add links for more focus here
+special_links:
+  # "Search": https://duckduckgo.com
